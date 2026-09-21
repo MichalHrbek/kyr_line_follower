@@ -1,3 +1,5 @@
+# ROBOT N. 55
+
 import brian.motors as motors
 import brian.sensors as sensors
 from time import sleep
@@ -48,7 +50,7 @@ side_motor = motor_l
 
 n = 1
 
-STRAIGHT_TIME = 0.7
+STRAIGHT_TIME = 0.08
 
 while True:
     main_motor.run_at_speed(DRIVE_SPEED*MAIN_RATIO)
